@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
             <!-- To Ask for permission from user: For Camera Permission -->
-    <users-permission android:name="android.permission.camera"/>
+    <!-- <uses-permission android:name="android.permission.camera"/> -->
     <!-- To chnage the name of the Application for android  -->
     <application
         android:label="Calculator"

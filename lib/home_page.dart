@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Center(
           child: const Text(
-            'Basic Calculator',
+            'The Pink Calculator',
             style: TextStyle(color: Colors.white),
           ),
         ),
