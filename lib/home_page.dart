@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   String operand = '';
 
   //function to calculate the result
-  calculate(dynamic buttonText) 
+  calculate (dynamic buttonText) 
   {
     if (buttonText == "AC") {
       result = '0';
@@ -143,10 +143,8 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
-}
 
-//=============== Button Building =================
-Widget buildButton(String buttonText) {
+  Widget buildButton(String buttonText) {
   return Expanded(
     child: Container(
       child: ElevatedButton(
@@ -169,8 +167,13 @@ Widget buildButton(String buttonText) {
         onPressed: () {
           print(buttonText);
           calculate(buttonText);
+      
         },
       ),
     ),
   );
 }
+
+}
+
+//=============== Button Building =================
