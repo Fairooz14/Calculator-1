@@ -23,44 +23,52 @@ class _HomePageState extends State<HomePage> {
       number1 = 0.0;
       number2 = 0.0;
       operand = '';
-    } else if (buttonText == "Del") {
+    } 
+    else if (buttonText == "Del") {
       result = '0';
       value = '0';
       number1 = 0.0;
       number2 = 0.0;
       operand = '';
-    } else if (buttonText == "+" ||
-        buttonText == "-" ||
-        buttonText == "*" ||
-        buttonText == "/") 
-        {
-      number1 = double.parse(value);
+    } 
+    else if (buttonText == "+" || buttonText == "-" || buttonText == "*" || buttonText == "/") 
+    {
+      number1 = double.parse(result);
       operand = buttonText;
       value = '0';
-    } else if (buttonText == "=") {
+    } 
+    else if (buttonText == "=") 
+    {
       number2 = double.parse(result);
-      if (operand == "+") {
-        value = (number1 + number2).toString();
+
+      if (operand == "+") 
+      {
+        value = (number1 + number2).toStringAsFixed(2);
       }
-      if (operand == "-") {
-        value = (number1 - number2).toString();
+      if (operand == "-") 
+      {
+        value = (number1 - number2).toStringAsFixed(2);
       }
-      if (operand == "*") {
-        value = (number1 * number2).toString();
+      if (operand == "*") 
+      {
+        value = (number1 * number2).toStringAsFixed(2);
       }
-      if (operand == "/") {
-        value = (number1 / number2).toString();
+      if (operand == "/") 
+      {
+        value = (number1 / number2).toStringAsFixed(2);
       }
 
       number1 = 0.0;
       number2 = 0.0;
       operand = '';
-    } else {
+    } 
+    else 
+    {
       value = value + buttonText;
     }
 
     setState(() {
-      result = double.parse(result).toStringAsFixed(2);
+      result = double.parse(value).toStringAsFixed(2);
     });
   }
 
@@ -88,7 +96,7 @@ class _HomePageState extends State<HomePage> {
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text(
-                '0.00',
+                result,
                 style: TextStyle(fontSize: 40),
               ),
             ),
