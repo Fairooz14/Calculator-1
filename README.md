@@ -2,9 +2,10 @@
 
 This is a basic calculator app built using **Flutter**. The app performs simple arithmetic operations such as addition, subtraction, multiplication, and division.
 
-![Frame 3](https://github.com/user-attachments/assets/7a2c5d5a-c6c2-44b7-bde5-1cee67ceed06)
+![Frame 3](https://github.com/user-attachments/assets/55918ed5-0e5e-483d-9b99-df43f1e40714)
 
 ## Features
+
 
 - **Addition**: Add two or more numbers.
 - **Subtraction**: Subtract one number from another.
