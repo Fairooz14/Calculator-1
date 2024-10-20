@@ -1,16 +1,49 @@
-# everything_is_widget_2
+# Basic Calculator Application
 
-A new Flutter project.
+This is a basic calculator app built using **Flutter**. The app performs simple arithmetic operations such as addition, subtraction, multiplication, and division.
+
+![Frame 3](https://github.com/user-attachments/assets/7a2c5d5a-c6c2-44b7-bde5-1cee67ceed06)
+
+## Features
+
+- **Addition**: Add two or more numbers.
+- **Subtraction**: Subtract one number from another.
+- **Multiplication**: Multiply two  or more numbers.
+- **Division**: Divide one number by another.
+  
+The app has a simple and user-friendly interface, making it easy to use for basic calculations.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project on your local machine, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed. You can download it from [here](https://flutter.dev/docs/get-started/install).
+- A code editor such as **Visual Studio Code** or **Android Studio**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/Fairooz-14/Calculator-1.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd Calculator-1
+    ```
+
+3. Install the dependencies:
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Built With
+
+- **Flutter** - The framework used to build the app.
